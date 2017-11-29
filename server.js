@@ -18,6 +18,18 @@ app.get("/", function(req, res) {
   res.sendFile(path.join(__dirname, "index.html"));
 });
 
+// app.get("vendor/font-awesome/css/font-awesome.min.css", function(req, res) {
+//   res.sendFile(path.join(__dirname,'vendor/font-awesome' "index.html"));
+// });
+// app.get("", function(req, res) {
+//   res.sendFile(path.join(__dirname, "index.html"));
+// });
+// app.get("/", function(req, res) {
+//   res.sendFile(path.join(__dirname, "index.html"));
+// });
+// app.get("/", function(req, res) {
+//   res.sendFile(path.join(__dirname, "index.html"));
+// });
 
 
 // Start the API server
